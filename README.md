@@ -6,7 +6,7 @@ Our first app is HelloJava.java
 
 this app contains a piece of java code put together to make a computer do something
 
-when its compiled it generates a file ending with .class extension
+when its compiled,  it generates a file ending with .class extension
 
 Now, to understand it how does the code work, i explained it in the comments(you will see that when you open the file)
 
