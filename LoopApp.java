@@ -1,44 +1,13 @@
-public class LoopApp{
- public static void main(String[] args){
-  int x = 7;
-  System.out.println("SSSSSSSSSSSSSSSSSSSSSSSSS");
-  
-  // S loop first phase
-  while ( x > 0 ){
-   if ( x == 1 ){
-    System.out.println("S");
-   }if ( x == 2 ){
-    System.out.println("S");
-   }if ( x == 3 ){
-    System.out.println("S");
-   }if ( x == 4 ){
-    System.out.println("S");
-   }if ( x == 5 ){
-    System.out.println("S");
-   }if ( x == 6 ){
-    System.out.println("S");
-   }
-   x = x - 1;
-  }System.out.println(" SSSSSSSSSSSSSSSSSSSSSSSS ");
- 
-// S second phase
-
-   System.out.println("                          S");
-   System.out.println("                          S");
-   System.out.println("                          S");
-   System.out.println("                          S");
-   System.out.println("                          S");
-   System.out.println("                          S");  
-   System.out.println("SSSSSSSSSSSSSSSSSSSSSSSSSS");
-
-// O first phase
-   System.out.println("                           ");
-   System.out.println("                           ");
-   System.out.println("OOOOOOOOOOOOOOOOOOOOOOOOOOO");
-   System.out.println("                          O");
-   System.out.println("                          O");
-   System.out.println("                          O");
-   System.out.println("                          O");
-   System.out.println("                          O");
- }
+public class LoopApp{ // again this is our main class
+ public static void main (String[] args){ // just a main method
+   int x = 4; // we declare the integer type variable "x" and assigned it the value 4
+  System.out.println("This is before the loop");
+  while ( x < 10 ){
+   System.out.println("This is less than 10");
+  }
+  x = x + 1; // this means that when command hits run, the compiler looks for the count in this case it adds 1 to the value(whatever
+  //value it is that is less than 10), this also descides the direction the loop will go
+ } 
 }
+
+// one important thing i forgot to metion in previous exmaples is that every statement in java program ends with semicolon ";"
