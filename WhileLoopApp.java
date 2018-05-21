@@ -1,3 +1,7 @@
+/* This is just a short program or 
+a small demonstration to show you 
+how the while loop works in java */
+
 public class WhileLoopApp{
  public static void main(String[] args){
   int x = 1;
