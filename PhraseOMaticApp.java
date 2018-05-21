@@ -1,3 +1,10 @@
+// We are gonna build a tiny application here
+/* In this application the program makes three lists of words and then 
+picks one word from each list and then prints the phrase or sentence
+combining those three words */
+// Lemmi know if you struck anywhere in this code
+// Leave comments if you need to.
+
 public class PhraseOMaticApp{
  public static void main(String[] args){
   // Make theree sets of words to choose from. Add your own!
